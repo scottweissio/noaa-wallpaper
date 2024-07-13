@@ -86,6 +86,6 @@ crop_and_resize_image(download_path, output_image_name, output_size)
 set_wallpaper(output_image_name)
 
 # Log the execution
-log_file_path = "/Users/scottweiss/Desktop/wallpaper-scripts/execution_log.txt"
+log_file_path = os.path.expanduser('~') + "/Desktop/wallpaper-scripts/execution_log.txt"
 with open(log_file_path, "a") as log_file:
     log_file.write(f"Script executed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")

@@ -1,4 +1,5 @@
 #!/bin/bash
-source /Users/sw/venvs/wallpaper-script/bin/activate
-python3 /Users/sw/Desktop/wallpaper-script/noaa_wallpaper_updater.py
-
+#source /Users/sw/Desktop/wallpaper-scripts/venv/bin/activate
+source /Users/sw/.local/pipx/venvs/pip/bin/activate
+python3 /Users/sw/Desktop/wallpaper-scripts/noaa_wallpaper_updater.py
+deactivate
